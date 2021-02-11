@@ -8,13 +8,13 @@ from PIL import Image
 
 # os.chdir(sys.path[0])
 
-text = open('wordcount_CheatSheet.md', mode='r', encoding='utf-8').read()
+text = open('input/wordcount_CheatSheet.md', mode='r', encoding='utf-8').read()
 
 stopwords = STOPWORDS
 stopwords.add('kbd')
 stopwords.add('file')
 
-python_mask = np.array(Image.open("python_snakes_mask.png"))
+python_mask = np.array(Image.open("input/python_snakes_mask.png"))
 
 wc = WordCloud(
     background_color="rgba(22, 25, 28, 255)", mode="RGBA",       # colored background
@@ -27,6 +27,6 @@ wc = WordCloud(
 
 wc.generate(text)
 
-wc.to_file('wordcloud_dark_test.png')
+wc.to_file('output/wordcloud_dark_test.png')
 
 # the image creation can take several seconds!
