@@ -1,3 +1,9 @@
+
+
+.idea
+
+python_scripts_collections
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
