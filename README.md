@@ -8,4 +8,4 @@ List of scripts:
 
 - [sending emails](sending_emails) | Two python scripts for sending emails to yourself or other people.
 
-- [requesting APIs](requesting_apis/README.md) | Fetching API data is indispensable within the API era. Here I'm using the famous requests library and marshmellow to handle API requests/responds. The data are validated and serialized.
+- [requesting APIs](requesting_apis) | Fetching API data is indispensable within the API era. Here I'm using the famous requests library and marshmellow to handle API requests/responds. The data are validated and serialized.
