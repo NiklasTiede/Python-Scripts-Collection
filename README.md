@@ -11,3 +11,5 @@ List of scripts:
 - [Requesting APIs](https://github.com/NiklasTiede/Python-Scripts-Collection/blob/main/requesting_apis/README.md) | Fetching API data is indispensable within the API era. Here I'm using the famous requests library and marshmellow to handle API requests/responds. The data are validated and serialized.
 - [Drug Webscraper](https://github.com/NiklasTiede/Python-Scripts-Collection/blob/main/drug_webscraper/README.md) | Retrieves the InChI strings of FDA-approved drugs by their proprietary names.
 - [Renaming Script](https://github.com/NiklasTiede/Python-Scripts-Collection/blob/main/renaming_tool/README.md) | Script which replaces whitespaces within folder/file-names by underscores. Culminated into the more advanced renaming tool [Spasco](https://github.com/NiklasTiede/Spasco).
+
+If you find a bug or if you have any suggestions for improvement (or if you have an interesting python script to share) make a pullrequest and your contribution will be appreciated! 😀
