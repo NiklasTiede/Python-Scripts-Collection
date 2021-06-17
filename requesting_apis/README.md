@@ -1,4 +1,4 @@
-# Requests
+# Requests and APIs
 
 Here I'm collecting some [requests](https://github.com/psf/requests) scripts.
 

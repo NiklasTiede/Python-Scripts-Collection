@@ -4,8 +4,9 @@ This is a collection of scripts which are too small to have their own repository
 
 List of scripts:
 
-- [word cloud](wordcloud) | Here I generated a word cloud for my [Linux CheatSheet](https://github.com/NiklasTiede/CheatSheet-Linux) repository. It uses the [wordcloud](https://github.com/amueller/word_cloud) library.
+- [Word Cloud](https://github.com/NiklasTiede/Python-Scripts-Collection/blob/main/wordcloud/README.md) | Here I generated a word cloud for my [Linux CheatSheet](https://github.com/NiklasTiede/CheatSheet-Linux) repository. It uses the [wordcloud](https://github.com/amueller/word_cloud) library.
 
-- [sending emails](sending_emails) | Two python scripts for sending emails to yourself or other people.
+- [Sending Emails](https://github.com/NiklasTiede/Python-Scripts-Collection/blob/main/sending_emails/README.md) | Two python scripts for sending emails to yourself or other people.
 
-- [requesting APIs](requesting_apis) | Fetching API data is indispensable within the API era. Here I'm using the famous requests library and marshmellow to handle API requests/responds. The data are validated and serialized.
+- [Requesting APIs](https://github.com/NiklasTiede/Python-Scripts-Collection/blob/main/requesting_apis/README.md) | Fetching API data is indispensable within the API era. Here I'm using the famous requests library and marshmellow to handle API requests/responds. The data are validated and serialized.
+- [Drug Webscraper](https://github.com/NiklasTiede/Python-Scripts-Collection/blob/main/drug_webscraper/README.md) | Retrieves the InChI strings of FDA-approved drugs by their proprietary names.
