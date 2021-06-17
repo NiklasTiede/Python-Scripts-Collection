@@ -1,4 +1,4 @@
-# a list of all FDA-approved drugs (downloaded from fda.gov) is extracted 
+# a list of all FDA-approved drugs (downloaded from fda.gov) is extracted
 # and used for scraping their InChI-strings from the web:
 
 
@@ -32,3 +32,5 @@ with open('preprocessed_compilation.csv') as csv_file:
             file.write(f'{prop_name},"{ingredient}","{request}"\n')
 
 print('script finished!')
+
+# the scraping took about 5 h for me!
