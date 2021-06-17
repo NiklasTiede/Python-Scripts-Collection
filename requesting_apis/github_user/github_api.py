@@ -21,3 +21,5 @@ pprint(r.json())
 
 with open('github_acc.json', 'w') as f:
     json.dump(r.json(), f, sort_keys=True, indent=2)
+
+# PyGithub is a nice Python wrapper around the github API.
