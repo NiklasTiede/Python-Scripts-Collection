@@ -1,5 +1,3 @@
-
-
 import configparser
 import json
 import pathlib
@@ -8,7 +6,7 @@ import ssl
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from jinja2 import Template
+from jinja2 import Template  # type: ignore
 
 # credentials of sender email account:
 config = configparser.ConfigParser()
@@ -39,8 +37,8 @@ with open("userData.json", "r") as f:
 for user_email, info in users.items():
     firstName, lastName = info.values()
 
-    html = html_template.render(firstName=firstName, premium=True)
-    text = text_template.render(firstName=firstName, premium=True)
+    html = html_template.render(firstName=firstName, premium=True)  # type: ignore
+    text = text_template.render(firstName=firstName, premium=True)  # type: ignore
 
     message = MIMEMultipart("alternative")
     message["Subject"] = "Your Registration was successful!"
@@ -61,4 +59,3 @@ for user_email, info in users.items():
         smtp.ehlo()
         smtp.login(SENDER_EMAIL, EMAIL_PASSWORD)
         smtp.sendmail(SENDER_EMAIL, user_email, message.as_string())
-

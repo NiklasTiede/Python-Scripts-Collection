@@ -1,10 +1,9 @@
 # This script generates a word cloud of my linux-cheatsheet and a python logo mask
-
-from wordcloud import WordCloud, STOPWORDS
-import sys
-import os
 import numpy as np
 from PIL import Image
+
+from wordcloud import STOPWORDS
+from wordcloud import WordCloud
 
 # os.chdir(sys.path[0])
 

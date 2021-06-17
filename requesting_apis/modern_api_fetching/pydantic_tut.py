@@ -1,6 +1,5 @@
-
-
 from pydantic import BaseModel
+
 
 class User(BaseModel):
     id: int
@@ -12,16 +11,3 @@ print(user)
 
 print(user.dict())
 print(user.json())
-
-
-
-
-
-
-
-
-
-
-
-
-

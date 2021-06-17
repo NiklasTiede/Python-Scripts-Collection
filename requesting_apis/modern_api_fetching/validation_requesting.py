@@ -1,11 +1,14 @@
-
+import dataclasses
 import json
 from dataclasses import dataclass
-import dataclasses
 
-import requests
-from marshmallow import EXCLUDE, fields, pre_dump, Schema, validate
 import desert
+import requests  # type: ignore
+from marshmallow import EXCLUDE
+from marshmallow import fields
+from marshmallow import pre_dump
+from marshmallow import Schema
+from marshmallow import validate
 
 
 @dataclass

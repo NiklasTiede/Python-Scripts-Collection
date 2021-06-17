@@ -1,10 +1,9 @@
 # a list of all FDA-approved drugs (downloaded from fda.gov) is extracted
 # and used for scraping their InChI-strings from the web:
-
-
 # collecting the data within another .csv-file
 import csv
-import requests
+
+import requests  # type: ignore
 
 with open('preprocessed_compilation.csv') as csv_file:
     spamreader = csv.reader(csv_file, delimiter=',')

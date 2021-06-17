@@ -1,8 +1,8 @@
-
-import requests
 import configparser
 import json
 from pprint import pprint
+
+import requests  # type: ignore
 # credentials of sender email account:
 config = configparser.ConfigParser()
 config.read("../settings.ini")
@@ -21,4 +21,3 @@ pprint(r.json())
 
 with open('github_acc.json', 'w') as f:
     json.dump(r.json(), f, sort_keys=True, indent=2)
-
